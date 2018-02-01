@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane minWidth="450.0" SplitPane.resizableWithParent="false">
+    <children>
+        <TitledPane animated="false" layoutX="-4.0" layoutY="-1.0" prefHeight="373.0" prefWidth="450.0" text="CONFIGURAÇÕES">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+        </TitledPane>
+        <Label layoutX="37.0" layoutY="38.0" text="Adicionar Simbolo:" />
+        <Label layoutX="245.0" layoutY="38.0" text="Lista de Simbolos:" />
+        <Button layoutX="132.0" layoutY="66.0" mnemonicParsing="false" text="Adicionar" />
+        <Pane layoutX="245.0" layoutY="66.0" prefHeight="192.0" prefWidth="169.0" style="-fx-background-color: d3d3d3;">
+            <children>
+                <Text layoutX="25.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EXEMPLO DE IMAGEM" />
+                <ScrollPane layoutY="-5.0" prefHeight="235.0" prefWidth="169.0">
+                    <content>
+                        <ScrollPane prefHeight="234.0" prefWidth="169.0" />
+                    </content>
+                </ScrollPane>
+            </children>
+        </Pane>
+        <Button layoutX="37.0" layoutY="66.0" mnemonicParsing="false" text="Procurar" />
+        <Pane layoutX="37.0" layoutY="136.0" prefHeight="160.0" prefWidth="160.0" style="-fx-background-color: d3d3d3;">
+            <children>
+                <Text layoutX="20.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EXEMPLO DE IMAGEM" />
+            </children>
+        </Pane>
+        <Label layoutX="37.0" layoutY="108.0" text="Pre-visualização:" />
+        <Button layoutX="88.0" layoutY="306.0" mnemonicParsing="false" text="Apagar" />
+    </children>
+</AnchorPane>
+  
